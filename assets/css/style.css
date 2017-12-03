@@ -1,0 +1,156 @@
+body,html{
+  width:100%;
+  height:100%;
+  font-family: 'Raleway';
+}
+
+/* ================== */
+/*    NAVIBAR SECTION */
+/* ================== */
+
+/* Add a dark background color with a little bit see-through */ 
+.navbar {
+    margin-bottom: 0;
+    background-color: #2d2d30;
+    border: 0;
+    font-size: 11px !important;
+    letter-spacing: 2px;
+    opacity:0.9;
+}
+
+/* Add a gray color to all navbar links */
+.navbar li a, .navbar .navbar-brand { 
+    color: #d5d5d5 !important;
+}
+
+/* Chang the font size of the navigation bar*/
+.navbar .navbar-nav li a {
+	font-size: 14px;
+}
+
+/* On hover, the links will turn white */
+.navbar-nav li a:hover {
+    color: #fff !important;
+}
+
+/* The active link */
+.navbar-nav li.active a {
+    color: #fff !important;
+    background-color:#29292c !important;
+}
+
+/* Remove border color from the collapsible button */
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+}
+
+/* Dropdown */
+.open .dropdown-toggle {
+    color: #fff ;
+    background-color: #555 !important;
+}
+
+/* Dropdown links */
+.dropdown-menu li a {
+    color: #000 !important;
+}
+
+/* On hover, the dropdown links will turn red */
+.dropdown-menu li a:hover {
+    background-color: #3498DB !important;
+}
+
+/* ================== */
+/*   about SECTION    */
+/* ================== */
+
+#about {
+      background-color: #2d2d30;
+      color: #ffffff;
+	  opacity: 0.8;
+	  margin-top: 50px;
+}
+
+#about img{
+  max-width: 100%;
+  height: auto;
+}
+
+#about div.container h3{
+	text-align: left;
+	padding-left: 50px;
+}
+
+#about img.img-circle{
+	float: center;
+}
+
+ul.address {
+	padding-top: 50px;
+}
+
+ul.address li {
+    display: block;
+}
+
+ul.address li ul.address-text li {
+    display: inline-block;
+    font-size: 24px;
+    color: #fff;
+    margin-top: 1em;
+	font-weight: 400;
+}
+
+ul.address-text li:nth-child(2){
+	padding-left: 20px;
+}
+
+ul.address li ul.address-text li a {
+    color: #fff;
+	text-decoration:none;
+}
+
+ul.address li ul.address-text li a:link{
+        color: #FFF;
+}
+
+ul.address li ul.address-text li a:hover{
+        color: #3498DB;
+}
+
+/* ================== */
+/* Education SECTION  */
+/* ================== */
+
+#education {
+  padding: 0 0;
+  padding-top: 50px;
+  background-color: #2d2d30;
+  color: #fff;
+  font-family: "Times New Roman";
+  font-weight: bold;
+  height: auto;
+  opacity: 0.8;
+}
+
+/* ================== */
+/*   PROJECT SECTION  */
+/* ================== */
+#projects{
+  background-color: #ddd;
+  padding: 35px 0;
+}
+.box{
+  background-color: white;
+}
+.box img{
+  max-width: 100%;
+  height: auto;
+}
+.box p{
+  padding: 15px;
+}
+.footer{
+  padding-top: 35px;
+  text-align: center;
+}
