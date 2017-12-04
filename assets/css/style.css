@@ -69,6 +69,7 @@ body,html{
       color: #ffffff;
 	  opacity: 0.8;
 	  margin-top: 50px;
+	  padding-bottom: 50px;
 }
 
 #about img{
@@ -129,14 +130,21 @@ ul.address li ul.address-text li a:hover{
 /* ================== */
 
 #education {
-  padding: 0 0;
-  padding-top: 50px;
+  padding-top: 80px;
   background-color: #2d2d30;
   color: #fff;
   font-family: "Times New Roman";
   font-weight: bold;
   height: auto;
   opacity: 0.8;
+}
+
+#education div.col-md-8 h3{
+	color: #9B9B8C
+}
+
+#education div.col-md-4 h3{
+	text-align: right;
 }
 
 /* ================== */
