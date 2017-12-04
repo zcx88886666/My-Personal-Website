@@ -86,7 +86,8 @@ body,html{
 }
 
 ul.address {
-	padding-top: 50px;
+	padding-top: 5px;
+	padding-left: 10px;
 }
 
 ul.address li {
@@ -117,6 +118,11 @@ ul.address li ul.address-text li a:link{
 ul.address li ul.address-text li a:hover{
         color: #3498DB;
 }
+
+.list-social-icons a {
+  color: #495057; }
+
+
 
 /* ================== */
 /* Education SECTION  */
