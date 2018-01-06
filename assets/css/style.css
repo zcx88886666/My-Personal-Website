@@ -1,7 +1,7 @@
 body,html{
   width:100%;
   height:100%;
-  font-family: 'Raleway';
+  font-family: 'Open Sans', sans-serif; /* 'Raleway'; */
 }
 
 /* ================== */
@@ -70,6 +70,12 @@ body,html{
 	  opacity: 0.8;
 	  margin-top: 50px;
 	  padding-bottom: 50px;
+/* 	  background: url(../images/banner.jpg) no-repeat center top;
+	  background-size: cover;
+	  -webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  -ms-background-size: cover; */
 }
 
 #about img{
@@ -140,7 +146,7 @@ ul.address li ul.address-text li a:hover{
 }
 
 #education div.col-md-8 h3{
-	color: #9B9B8C
+	color: #FF8000 /* #9B9B8C */
 }
 
 #education div.col-md-4 h3{
@@ -164,7 +170,13 @@ ul.address li ul.address-text li a:hover{
 .box p{
   padding: 15px;
 }
-.footer{
-  padding-top: 35px;
+footer{
+  padding-top: 5px;
   text-align: center;
+  background-color: #2f2f2f;
+}
+
+footer p {
+	color: #fff;
+	font-size: 15px
 }
