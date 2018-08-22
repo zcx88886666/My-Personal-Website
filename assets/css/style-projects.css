@@ -158,14 +158,12 @@ ul.address li ul.address-text li a:hover{
 /* ================== */
 #projects{
   background-color: #2d2d30;
-  opacity: 0.8;
   padding: 35px 0;
-  color: #fff;
-  font-family: "Times New Roman";
 }
 
-#projects div.col-sm-4 p{
-	color: black;
+#projects h1{
+   color: #fff;
+   font-family: "Times New Roman";
 }
 
 .box{
@@ -190,30 +188,7 @@ footer p {
 }
 
 /* ================== */
-/* Experience SECTION*/
-/* ================== */
-
-#experience {
-  padding-top: 80px;
-  background-color: #2d2d30;
-  color: #fff;
-  font-family: "Times New Roman";
-  font-weight: bold;
-  height: auto;
-  opacity: 0.8;
-}
-
-#experience h3{
-	color: #FF8000; /* #9B9B8C */
-	text-align: justify;
-}
-#experience a{
-	color: #FF8000; /* #9B9B8C */
-}
-
-
-/* ================== */
-/* Publication SECTION*/
+/*   Publication SECTION  */
 /* ================== */
 
 #publication {
